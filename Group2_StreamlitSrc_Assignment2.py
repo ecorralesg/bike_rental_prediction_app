@@ -184,8 +184,8 @@ def main():
         })
 
         prediction = model.predict(input_data)
-        rounded_prediction = round(prediction[0])
-        st.success(f"Predicted Demand: {rounded_prediction}")
+        final_prediction =  max(0, prediction[0])
+        st.success(f"Predicted Demand: {round(final_prediction)}")
 
 
     st.markdown("---")

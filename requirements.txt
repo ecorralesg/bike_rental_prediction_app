@@ -12,4 +12,3 @@ lightgbm
 numpy
 pycaret
 scikit-learn
-math

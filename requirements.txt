@@ -1,0 +1,15 @@
+pandas
+seaborn
+matplotlib
+matplotlib-inline
+plotly
+plotly-resampler
+statsmodels
+pickle-mixin
+streamlit
+streamlit-option-menu
+lightgbm
+numpy
+pycaret
+scikit-learn
+math

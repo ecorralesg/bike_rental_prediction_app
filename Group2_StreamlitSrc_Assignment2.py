@@ -143,7 +143,7 @@ def main():
     weekday = st.selectbox('📅 Weekday', range(7), format_func=lambda x: weekday_names[x])
 
     # Temperature slider in Celsius (ensure these are numbers)
-    temp_min_celsius = 0.0  # Example minimum temperature in Celsius
+    temp_min_celsius = 2.0  # Example minimum temperature in Celsius
     temp_max_celsius = 40.0  # Example maximum temperature in Celsius
     temp = st.slider('🌡️ Temperature (°C)', temp_min_celsius, temp_max_celsius, step=0.5)
     temp_normalized = (temp - temp_min_celsius) / (temp_max_celsius - temp_min_celsius)

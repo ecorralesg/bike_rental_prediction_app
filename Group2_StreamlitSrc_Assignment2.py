@@ -189,7 +189,12 @@ def main():
 
 
     st.markdown("---")
-    st.markdown("Bike Rental Prediction App - Group 2")
+    st.header("Business Recommendations")
+    st.markdown("""
+    1. **Geo-Spatial Data Utilization**: We recommend looking into geo-spatial data to better allocate the usage of the bikes around the city, placing them in locations that will have more demand. This ensures optimal usage of each bike.
+    2. **Targeted Marketing**: Implement strategic marketing to promote the usage of bikes when the weather is favorable. This can attract more clients at times of the day when demand is typically lower.
+    3. **Strategic Rental Allocation**: Establish a multi-sharing structure to move bikes around different cities or areas according to the demand based on different feature combinations. This can help balance the supply with varying demand patterns.
+    """)
 
 if __name__ == '__main__':
     main()

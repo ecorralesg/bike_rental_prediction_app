@@ -121,7 +121,7 @@ def main():
 
     st.subheader("⚙️ Correlation Heatmap")
     st.write("This heatmap shows the correlations between different features in the dataset.")
-    plot_correlation_heatmap_plotly(original_data)
+    plot_correlation_heatmap_plotly(data)
 
     st.subheader("🎯 Time Series Decomposition")
     st.write("The decomposition plot breaks down the time series into Trend, Seasonal, and Residual components. The Trend line shows the overall direction of demand over time, while the Seasonal plot typically shows repeating cycles corresponding to weekly patterns, due to de high number of bike users registered per period it has this fuller solid look. The Residual plot shows the random fluctuations that are not explained by the trend or seasonality.")

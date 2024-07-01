@@ -49,7 +49,7 @@ def plot_boxplot_plotly(df, x_column, y_column):
     st.plotly_chart(fig)
 
 def plot_correlation_heatmap_plotly(df):
-    fig = px.imshow(df.corr(), text_auto=True, title='Correlation Heatmap')
+    fig = px.imshow(df, text_auto=True, title='Correlation Heatmap')
     fig.update_layout(autosize=False, width=800, height=800)
     st.plotly_chart(fig)
 
